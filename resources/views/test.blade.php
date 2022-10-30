@@ -20,6 +20,9 @@
             <br>
         </div>
     </section>
+    <div class="checkgit">
+        Just for checking Git update...Oct.31st 2022
+    </div>
 </div>
 
 @endsection
