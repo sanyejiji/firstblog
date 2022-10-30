@@ -27,6 +27,11 @@
         Leader updated on local 
     </div>
 
+    <div class="freshman">
+        Commit from freshman using another branch...
+    </div>
+
+
 </div>
 
 @endsection
