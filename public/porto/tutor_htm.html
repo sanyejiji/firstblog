@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <!-- style>
+        body {background-color: powderblue;}
+        h1 {color:rebeccapurple}
+    </style -->
+
+    <link rel="stylesheet" href="tutor_htm.css">
+    </link>
+
+    <!-- link rel="icon" type="image/x-icon" href="/images/favicon.ico" -->
+
+</head>   
+
+<body>
+
+    <h1 style="font-family:Verdana;font-size:larger;text-align: left;">
+        My first tutorial page with H1.
+    </h1>
+    <h3 style="border:2px solid tomato;">Hello, my page!</h3>
+
+    <hr> 
+    <p>
+        The second line html text.
+    </p>
+    <a href="www.google.com"> ais TAG, href is attribute</a>
+    <br>
+    <img src="123.jpg" alt="number shows when the image does not exist" height = "10" width="10">
+    <p title = "testing RED color" style="color:red">
+        Nested HTML elements.
+        <br> Empty element.
+        
+    </p>
+    <hr>
+    <!-- p>
+        <br> <b> - Bold text </b>
+        <br> <strong> - Important text</strong>
+        <br> <i> - Italic text </i>
+        <br> <em> - Emphasized text </em>
+        <br> <mark style="background-color:aquamarine"> - Marked text </mark>
+        <br> <small> - Smaller text </small>
+        <br> <del> - Deleted text </del>
+        <br> <ins> - Inserted text </ins>
+        <br> The string is :<sub> - Subscript text </sub>
+        <br> Text is : <sup> - Superscript text </sup>
+    </p -->
+    <hr>
+    <p>
+        <br><q style="background-color:antiquewhite;font-size:x-large">HiveWing's command line is : /time set day ....</q>
+        <br>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+            For 50 years, WWF has been protecting the future of nature.
+            The world's leading conservation organization,
+            WWF works in 100 countries and is supported by
+            1.2 million members in the United States and
+            close to 5 million globally.
+            </blockquote>
+    </p>
+    <hr>
+    <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+    </p>
+    <p>
+        Hello, World! How do you know...<>
+        <bdo dir="rtl">
+            Hello, World! How do you know...
+        </bdo>
+    </p>
+    <br>
+    <table style="width:50%">
+        <caption>Name List</caption>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th> 
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>80</td>
+        </tr>
+      </table>
+      <br>
+
+      <button onclick="hideElements()"> Hide Elements </button>
+      <br>
+      <button onClick="showElements()"> Show Elements </button>
+
+      <p id="test" value="Testing!!!"><b>Javascript is not real script </b></p>
+
+      <h2 class="city" value="London">London</h2>
+      <p>Lodon is capital of England</p>
+
+      <h2 class="city" value="Paris">Paris</h2>
+      <p>Paris is capital of France</p>
+
+      <h2 class="city" value="Beijing">Beijing</h2>
+      <p>Beijing is capital of China</p>
+
+      <br>
+      <p id="demo">....</p>
+
+      <h1>The form autocomplete attribute</h1>
+
+        <p>Fill in and submit the form, then reload the page, start to fill in the form again - and see how autocomplete works.</p>
+
+        <p>Then, try to set autocomplete to "off".</p>
+
+        <form action="/action_page.php" autocomplete="off">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+        <input type="submit">
+        </form>
+
+      <script>
+
+        function hideElements(){
+            var x = document.getElementsByClassName("city");
+
+            for(var i = 0; i < x.length; i++){
+                x[i].style.display = "none";
+
+            }
+        }
+
+        function showElements(){
+            var y = document.getElementsByClassName("city");
+  
+            for(var j = 0; j < y.length; j++){
+                y[j].style.display = "";
+
+            }
+        }
+
+      </script>
+
+</body>
+
+
+
+</html>
+
+
+
