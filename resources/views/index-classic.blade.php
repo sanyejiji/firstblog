@@ -1,6 +1,6 @@
 <!-- Homepage, Index-class --> 
 
-@extends('layouts.app')''
+@extends('layouts.app')
 
 @section('content')
 
