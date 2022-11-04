@@ -35,7 +35,7 @@
                                 <span class="month">{{date('M', strtotime($post->updated_at))}}</span>
                             </div>
                             <div class="post-content ms-0
-                                <h2 class="font-weight-semi-bold"><a href="blog-post.html">{{$post->title}}</a></h>
+                                <h2 class="font-weight-semi-bold"><a href="#">{{$post->title}}</a></h>
                                 <div class="post-meta">
                                     <span><i class="far fa-calendar-alt"></i> {{ date('jS M Y', strtotime($post->updated_at))}}</span>
                                     <span><i class="far fa-user"></i> By <a href="#">{{$post->user->name}}</a> </span>
